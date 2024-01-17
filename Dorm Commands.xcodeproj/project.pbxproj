@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D5AD1E722B5214920044E155 /* Dorm_CommandsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E712B5214920044E155 /* Dorm_CommandsApp.swift */; };
 		D5AD1E742B5214920044E155 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E732B5214920044E155 /* ContentView.swift */; };
-		D5AD1E762B5214920044E155 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E752B5214920044E155 /* Item.swift */; };
 		D5AD1E782B5214960044E155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD1E772B5214960044E155 /* Assets.xcassets */; };
 		D5AD1E7B2B5214960044E155 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD1E7A2B5214960044E155 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		D5AD1E6E2B5214920044E155 /* Dorm Commands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dorm Commands.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AD1E712B5214920044E155 /* Dorm_CommandsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dorm_CommandsApp.swift; sourceTree = "<group>"; };
 		D5AD1E732B5214920044E155 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D5AD1E752B5214920044E155 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D5AD1E772B5214960044E155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5AD1E7A2B5214960044E155 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +53,6 @@
 			children = (
 				D5AD1E712B5214920044E155 /* Dorm_CommandsApp.swift */,
 				D5AD1E732B5214920044E155 /* ContentView.swift */,
-				D5AD1E752B5214920044E155 /* Item.swift */,
 				D5AD1E772B5214960044E155 /* Assets.xcassets */,
 				D5AD1E792B5214960044E155 /* Preview Content */,
 			);
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5AD1E742B5214920044E155 /* ContentView.swift in Sources */,
-				D5AD1E762B5214920044E155 /* Item.swift in Sources */,
 				D5AD1E722B5214920044E155 /* Dorm_CommandsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +272,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dorm Commands/Preview Content\"";
+				DEVELOPMENT_TEAM = 6MJCFP29V7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Dorm Commands/Preview Content\"";
+				DEVELOPMENT_TEAM = 6MJCFP29V7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
