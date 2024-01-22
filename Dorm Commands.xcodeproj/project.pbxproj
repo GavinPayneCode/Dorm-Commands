@@ -11,6 +11,16 @@
 		D5AD1E742B5214920044E155 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E732B5214920044E155 /* ContentView.swift */; };
 		D5AD1E782B5214960044E155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD1E772B5214960044E155 /* Assets.xcassets */; };
 		D5AD1E7B2B5214960044E155 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AD1E7A2B5214960044E155 /* Preview Assets.xcassets */; };
+		D5AD1E852B5846F20044E155 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E842B5846F20044E155 /* MainView.swift */; };
+		D5AD1E872B5847660044E155 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E862B5847660044E155 /* LogInView.swift */; };
+		D5AD1E892B58478A0044E155 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E882B58478A0044E155 /* RegisterView.swift */; };
+		D5AD1E8B2B5847D00044E155 /* LightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E8A2B5847D00044E155 /* LightView.swift */; };
+		D5AD1E8D2B5847E60044E155 /* SpotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E8C2B5847E60044E155 /* SpotifyView.swift */; };
+		D5AD1E8F2B58480D0044E155 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E8E2B58480D0044E155 /* DashboardView.swift */; };
+		D5AD1E922B5849710044E155 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D5AD1E912B5849710044E155 /* Alamofire */; };
+		D5AD1E952B5849E50044E155 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = D5AD1E942B5849E50044E155 /* SwiftyJSON */; };
+		D5AD1E972B5855000044E155 /* LightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD1E962B5855000044E155 /* LightViewModel.swift */; };
+		D5E2361A2B5BCF310077610E /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E236192B5BCF310077610E /* ResetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,14 @@
 		D5AD1E732B5214920044E155 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D5AD1E772B5214960044E155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5AD1E7A2B5214960044E155 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5AD1E842B5846F20044E155 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D5AD1E862B5847660044E155 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		D5AD1E882B58478A0044E155 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D5AD1E8A2B5847D00044E155 /* LightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightView.swift; sourceTree = "<group>"; };
+		D5AD1E8C2B5847E60044E155 /* SpotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyView.swift; sourceTree = "<group>"; };
+		D5AD1E8E2B58480D0044E155 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		D5AD1E962B5855000044E155 /* LightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightViewModel.swift; sourceTree = "<group>"; };
+		D5E236192B5BCF310077610E /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AD1E952B5849E50044E155 /* SwiftyJSON in Frameworks */,
+				D5AD1E922B5849710044E155 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +71,9 @@
 		D5AD1E702B5214920044E155 /* Dorm Commands */ = {
 			isa = PBXGroup;
 			children = (
+				D5AD1E832B5846670044E155 /* Models */,
+				D5AD1E822B5846410044E155 /* VIewModels */,
+				D5AD1E812B5846290044E155 /* Views */,
 				D5AD1E712B5214920044E155 /* Dorm_CommandsApp.swift */,
 				D5AD1E732B5214920044E155 /* ContentView.swift */,
 				D5AD1E772B5214960044E155 /* Assets.xcassets */,
@@ -65,6 +88,35 @@
 				D5AD1E7A2B5214960044E155 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5AD1E812B5846290044E155 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD1E842B5846F20044E155 /* MainView.swift */,
+				D5AD1E862B5847660044E155 /* LogInView.swift */,
+				D5E236192B5BCF310077610E /* ResetPasswordView.swift */,
+				D5AD1E882B58478A0044E155 /* RegisterView.swift */,
+				D5AD1E8A2B5847D00044E155 /* LightView.swift */,
+				D5AD1E8C2B5847E60044E155 /* SpotifyView.swift */,
+				D5AD1E8E2B58480D0044E155 /* DashboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5AD1E822B5846410044E155 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD1E962B5855000044E155 /* LightViewModel.swift */,
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
+		D5AD1E832B5846670044E155 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,10 @@
 			dependencies = (
 			);
 			name = "Dorm Commands";
+			packageProductDependencies = (
+				D5AD1E912B5849710044E155 /* Alamofire */,
+				D5AD1E942B5849E50044E155 /* SwiftyJSON */,
+			);
 			productName = "Dorm Commands";
 			productReference = D5AD1E6E2B5214920044E155 /* Dorm Commands.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +167,10 @@
 				Base,
 			);
 			mainGroup = D5AD1E652B5214920044E155;
+			packageReferences = (
+				D5AD1E902B5849710044E155 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D5AD1E932B5849E50044E155 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = D5AD1E6F2B5214920044E155 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AD1E8D2B5847E60044E155 /* SpotifyView.swift in Sources */,
+				D5AD1E8F2B58480D0044E155 /* DashboardView.swift in Sources */,
+				D5AD1E972B5855000044E155 /* LightViewModel.swift in Sources */,
 				D5AD1E742B5214920044E155 /* ContentView.swift in Sources */,
+				D5AD1E8B2B5847D00044E155 /* LightView.swift in Sources */,
+				D5AD1E892B58478A0044E155 /* RegisterView.swift in Sources */,
+				D5AD1E852B5846F20044E155 /* MainView.swift in Sources */,
+				D5E2361A2B5BCF310077610E /* ResetPasswordView.swift in Sources */,
+				D5AD1E872B5847660044E155 /* LogInView.swift in Sources */,
 				D5AD1E722B5214920044E155 /* Dorm_CommandsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +412,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5AD1E902B5849710044E155 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		D5AD1E932B5849E50044E155 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5AD1E912B5849710044E155 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5AD1E902B5849710044E155 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D5AD1E942B5849E50044E155 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5AD1E932B5849E50044E155 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D5AD1E662B5214920044E155 /* Project object */;
 }
